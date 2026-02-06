@@ -1,5 +1,5 @@
 import pool from "../config/db.js";
-import bcrypt, { hash } from "bcryptjs";
+import bcrypt from "bcryptjs";
 
 //function to find if email already exists
 export const findUserByEmail = async (email) => {
